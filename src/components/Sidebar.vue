@@ -1,0 +1,100 @@
+<template>
+    <div class="sidebar-content">
+      <nav>
+        <ul>
+          <li class="li-home">
+            <a href="home">
+              <img src="../assets/img/icon home.png" />
+              Smart Farm
+            </a>
+          </li>
+          <li>
+            <a href="/history">
+              <img src="../assets/img/history.png" />
+              History
+            </a>
+          </li>
+          <li>
+            <a href="diagnose">
+              <img src="../assets/img/disease-prevention.png" />
+              Diagnose
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../assets/img/weather.png" />
+              Weather
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../assets/img/help-web-button.png" />
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+</template>
+
+<script>
+
+</script>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+    .sidebar-content {
+        padding-top: 20px;
+        /* overflow: hidden; */
+        background-color: #09006f;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .sidebar-content nav {
+        height: 100%;
+    }
+
+    .sidebar-content nav ul {
+        height: 100%;
+        list-style-type: none;
+        margin: 0px 0 20px 0;
+    }
+
+    .sidebar-content nav ul li {
+        margin: 0px 0 40px 0;
+    }
+
+    .sidebar-content nav ul li a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sidebar-content nav ul li a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sidebar-content nav ul li a:hover {
+        background-color: #2980b9;
+        border-radius: 10px;
+    }
+
+    /* .sidebar-content nav ul li.li-home {
+
+    } */
+
+    .sidebar-content nav ul li.li-setting {
+      margin-bottom: 0;
+    }
+</style>
